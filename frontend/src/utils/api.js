@@ -4,8 +4,7 @@ import axios from 'axios';
 
 const api = axios.create({
   baseURL: "https://smart-complaint-system-8nqq.onrender.com/api",
-  headers: { 'Content-Type': 'application/json' },
-  withCredentials: true,
+  headers: { 'Content-Type': 'application/json' }
 });
 
 // Request interceptor: attach JWT token automatically
